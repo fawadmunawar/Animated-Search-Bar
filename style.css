@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #e6e6ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6 );
+    padding: 10px;
+    border-radius: 50px;
+    position: relative;
+    width: 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.container input{
+    margin: 10px;
+    outline: none;
+    border: none;
+    background-color: #e6e6ff;
+}
+
+#search-img{
+    width: 20px;
+    cursor: pointer;
+    color: gray;
+    position: absolute;
+    right: 10px;
+}
+#mic-image{
+    width: 30px;
+}
+
+/* .active.container{
+    width: 20px;
+    overflow: hidden;
+} */
